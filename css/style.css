@@ -1,1 +1,26 @@
-/* Denna fil skall innehålla din CSS kod */
+#wrapper {
+    display: grid;
+    height: 95vh;
+    row-gap: 10px;
+    grid-template-rows: 150px auto 100px;
+    grid-template-areas: "hd hd" 
+    "mn mn" 
+    "ft ft";
+}
+
+header {
+    border: 1px solid #000;
+    grid-area: hd;
+}
+
+
+
+main {
+    border: 1px solid #000;
+    grid-area: mn;
+}
+
+footer {
+    border: 1px solid #000;
+    grid-area: ft;
+}
