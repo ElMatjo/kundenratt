@@ -24,3 +24,8 @@ footer {
     border: 1px solid #000;
     grid-area: ft;
 }
+
+#logga {
+   
+    width: 30px;
+}
