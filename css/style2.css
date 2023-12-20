@@ -20,23 +20,15 @@ h1 {
     justify-content:center ;
 }
 
-#section2 {
-    border: 1px solid #000;
-    width: 200px;
-    height: 200px;
-    border-radius: 25px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
 
 section {
     border: 1px solid #000;
-    width: 200px;
-    height: 200px;
+    width:90vw;
+    height: 100px;
     border-radius: 25px;
     display:flex;
-    justify-content: center;
+    justify-content:left;
+    padding-left: 10px;
     align-items: center;
 }
 
@@ -45,8 +37,13 @@ section:hover {
 }
 
 #cardwrapper section p {
-font-size:x-large;
+font-size:16pt;
 text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+#p1 {
+justify-content: right;
+
 }
 
 #s1 {
@@ -54,23 +51,23 @@ text-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 #s2 {
-    background-color: #f3fb82;
+    background-color: rgb(141, 215, 215)
 }
 
 #s3 {
-background-color:rgb(187, 255, 119)
+background-color:rgb(141, 215, 215)
 }
 
 #s4 {
-    background-color:rgb(158, 158, 237)
+    background-color:rgb(141, 215, 215)
 }
 
 #s5 {
-background-color: rgb(255, 178, 255);
+background-color: rgb(141, 215, 215)
 }
 
 #s6 {
-    background-color:rgb(255, 146, 146);
+    background-color:rgb(141, 215, 215)
 }
 
 header {
